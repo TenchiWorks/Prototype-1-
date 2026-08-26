@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://36bv4wowg5ay"
-path="res://.godot/imported/BK_parry.png-7d411b19d2eaaf516a15e7bf773658a5.ctex"
+path="res://.godot/imported/BK_parry.png-91ff8807ead926f732becf229095a39c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Black Knight/Black Knight/SpriteSheets_Separated/Parry/BK_parry.png"
-dest_files=["res://.godot/imported/BK_parry.png-7d411b19d2eaaf516a15e7bf773658a5.ctex"]
+source_file="res://assets/Black Knight/SpriteSheets_Separated/Parry/BK_parry.png"
+dest_files=["res://.godot/imported/BK_parry.png-91ff8807ead926f732becf229095a39c.ctex"]
 
 [params]
 

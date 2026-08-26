@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cnrcd0mw0wylo"
-path="res://.godot/imported/BK_unarmed_run.png-60cde71da7d4d6b075ff1fad00f4377a.ctex"
+path="res://.godot/imported/BK_unarmed_run.png-4649dde65296e02f8c62112ac786c819.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Black Knight/Black Knight/SpriteSheets_Separated/Run/BK_unarmed_run.png"
-dest_files=["res://.godot/imported/BK_unarmed_run.png-60cde71da7d4d6b075ff1fad00f4377a.ctex"]
+source_file="res://assets/Black Knight/SpriteSheets_Separated/Run/BK_unarmed_run.png"
+dest_files=["res://.godot/imported/BK_unarmed_run.png-4649dde65296e02f8c62112ac786c819.ctex"]
 
 [params]
 

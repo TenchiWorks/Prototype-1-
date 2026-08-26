@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ds1e2fodfhcmd"
-path="res://.godot/imported/BK_weapon_fall_light.png-650af44886a0f43f055a339506985761.ctex"
+path="res://.godot/imported/BK_weapon_fall_light.png-acf200e2b9be2226960ff56c296ef965.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Black Knight/Black Knight/SpriteSheets_Separated/Fall_Light/BK_weapon_fall_light.png"
-dest_files=["res://.godot/imported/BK_weapon_fall_light.png-650af44886a0f43f055a339506985761.ctex"]
+source_file="res://assets/Black Knight/SpriteSheets_Separated/Fall_Light/BK_weapon_fall_light.png"
+dest_files=["res://.godot/imported/BK_weapon_fall_light.png-acf200e2b9be2226960ff56c296ef965.ctex"]
 
 [params]
 

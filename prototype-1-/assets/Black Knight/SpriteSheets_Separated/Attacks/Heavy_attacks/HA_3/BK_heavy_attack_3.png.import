@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b2vdpe5d8vxu3"
-path="res://.godot/imported/BK_heavy_attack_3.png-f602d86ede66e88a2045c646c9b9eaa0.ctex"
+path="res://.godot/imported/BK_heavy_attack_3.png-b17bddb02f675c4a840f3005fec266b0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Black Knight/Black Knight/SpriteSheets_Separated/Attacks/Heavy_attacks/HA_3/BK_heavy_attack_3.png"
-dest_files=["res://.godot/imported/BK_heavy_attack_3.png-f602d86ede66e88a2045c646c9b9eaa0.ctex"]
+source_file="res://assets/Black Knight/SpriteSheets_Separated/Attacks/Heavy_attacks/HA_3/BK_heavy_attack_3.png"
+dest_files=["res://.godot/imported/BK_heavy_attack_3.png-b17bddb02f675c4a840f3005fec266b0.ctex"]
 
 [params]
 

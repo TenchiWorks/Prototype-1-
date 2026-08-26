@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dwiduunrf0saw"
-path="res://.godot/imported/BK_weapon_idle.png-a3600355979a1f3232ed68bfdcf9aba0.ctex"
+path="res://.godot/imported/BK_weapon_idle.png-4374db0accc521d5f47ccb1c1458693b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Black Knight/Black Knight/SpriteSheets_Separated/Idle/BK_weapon_idle.png"
-dest_files=["res://.godot/imported/BK_weapon_idle.png-a3600355979a1f3232ed68bfdcf9aba0.ctex"]
+source_file="res://assets/Black Knight/SpriteSheets_Separated/Idle/BK_weapon_idle.png"
+dest_files=["res://.godot/imported/BK_weapon_idle.png-4374db0accc521d5f47ccb1c1458693b.ctex"]
 
 [params]
 

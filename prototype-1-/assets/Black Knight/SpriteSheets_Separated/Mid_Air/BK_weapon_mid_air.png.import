@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://yk0023ammltp"
-path="res://.godot/imported/BK_weapon_mid_air.png-0f9f39caf1907e7f4b0c12ce097d7c2f.ctex"
+path="res://.godot/imported/BK_weapon_mid_air.png-f7da097223affbdcd3ed7ce6e4f6e6c0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Black Knight/Black Knight/SpriteSheets_Separated/Mid_Air/BK_weapon_mid_air.png"
-dest_files=["res://.godot/imported/BK_weapon_mid_air.png-0f9f39caf1907e7f4b0c12ce097d7c2f.ctex"]
+source_file="res://assets/Black Knight/SpriteSheets_Separated/Mid_Air/BK_weapon_mid_air.png"
+dest_files=["res://.godot/imported/BK_weapon_mid_air.png-f7da097223affbdcd3ed7ce6e4f6e6c0.ctex"]
 
 [params]
 

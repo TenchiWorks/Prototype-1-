@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://e6ms5ny6rnxm"
-path="res://.godot/imported/BK_unarmed_fall_heavy.png-3f354dc6917b59a13f211d43e289e158.ctex"
+path="res://.godot/imported/BK_unarmed_fall_heavy.png-aa98acd9b7430edda2919ac051623b5a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Black Knight/Black Knight/SpriteSheets_Separated/Fall_Heavy/BK_unarmed_fall_heavy.png"
-dest_files=["res://.godot/imported/BK_unarmed_fall_heavy.png-3f354dc6917b59a13f211d43e289e158.ctex"]
+source_file="res://assets/Black Knight/SpriteSheets_Separated/Fall_Heavy/BK_unarmed_fall_heavy.png"
+dest_files=["res://.godot/imported/BK_unarmed_fall_heavy.png-aa98acd9b7430edda2919ac051623b5a.ctex"]
 
 [params]
 

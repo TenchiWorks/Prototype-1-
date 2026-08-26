@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://2wwnngfes8g5"
-path="res://.godot/imported/BK_weapon_art.png-087ef3817511a038d820471b8ba9d598.ctex"
+path="res://.godot/imported/BK_weapon_art.png-1129cd78815a5d7f4daec70775873127.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Black Knight/Black Knight/SpriteSheets_Separated/Attacks/Weapon_Art/BK_weapon_art.png"
-dest_files=["res://.godot/imported/BK_weapon_art.png-087ef3817511a038d820471b8ba9d598.ctex"]
+source_file="res://assets/Black Knight/SpriteSheets_Separated/Attacks/Weapon_Art/BK_weapon_art.png"
+dest_files=["res://.godot/imported/BK_weapon_art.png-1129cd78815a5d7f4daec70775873127.ctex"]
 
 [params]
 

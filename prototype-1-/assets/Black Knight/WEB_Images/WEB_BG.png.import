@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b3tcrv7afcn1m"
-path="res://.godot/imported/WEB_BG.png-4ae4814d426c2951aea5be8e1277b9e0.ctex"
+path="res://.godot/imported/WEB_BG.png-71e926ade44c30f831deccc57c517305.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Black Knight/Black Knight/WEB_Images/WEB_BG.png"
-dest_files=["res://.godot/imported/WEB_BG.png-4ae4814d426c2951aea5be8e1277b9e0.ctex"]
+source_file="res://assets/Black Knight/WEB_Images/WEB_BG.png"
+dest_files=["res://.godot/imported/WEB_BG.png-71e926ade44c30f831deccc57c517305.ctex"]
 
 [params]
 

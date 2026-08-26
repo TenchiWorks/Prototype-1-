@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://byygfr23unyk5"
-path="res://.godot/imported/BK_death.png-1f3733120a051d2ce658b2a70dc34fc1.ctex"
+path="res://.godot/imported/BK_death.png-2236228526a627070e9286881a73aafa.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Black Knight/Black Knight/SpriteSheets_Separated/Death/BK_death.png"
-dest_files=["res://.godot/imported/BK_death.png-1f3733120a051d2ce658b2a70dc34fc1.ctex"]
+source_file="res://assets/Black Knight/SpriteSheets_Separated/Death/BK_death.png"
+dest_files=["res://.godot/imported/BK_death.png-2236228526a627070e9286881a73aafa.ctex"]
 
 [params]
 

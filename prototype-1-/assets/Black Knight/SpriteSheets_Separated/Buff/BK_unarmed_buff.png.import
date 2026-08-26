@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://4xh7xkd2ltth"
-path="res://.godot/imported/BK_unarmed_buff.png-37545a119310469a90b647cdb85c5b9d.ctex"
+path="res://.godot/imported/BK_unarmed_buff.png-92ef229f469fd0fecb147f9f5d6a029f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Black Knight/Black Knight/SpriteSheets_Separated/Buff/BK_unarmed_buff.png"
-dest_files=["res://.godot/imported/BK_unarmed_buff.png-37545a119310469a90b647cdb85c5b9d.ctex"]
+source_file="res://assets/Black Knight/SpriteSheets_Separated/Buff/BK_unarmed_buff.png"
+dest_files=["res://.godot/imported/BK_unarmed_buff.png-92ef229f469fd0fecb147f9f5d6a029f.ctex"]
 
 [params]
 

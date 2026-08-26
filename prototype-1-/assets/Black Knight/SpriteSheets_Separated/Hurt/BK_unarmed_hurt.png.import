@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bx7hsjdq6rg55"
-path="res://.godot/imported/BK_unarmed_hurt.png-6f60d1a262110fb294215db7ce94b0eb.ctex"
+path="res://.godot/imported/BK_unarmed_hurt.png-4214dbf5ce0adc31e5df28e0aae4edaf.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Black Knight/Black Knight/SpriteSheets_Separated/Hurt/BK_unarmed_hurt.png"
-dest_files=["res://.godot/imported/BK_unarmed_hurt.png-6f60d1a262110fb294215db7ce94b0eb.ctex"]
+source_file="res://assets/Black Knight/SpriteSheets_Separated/Hurt/BK_unarmed_hurt.png"
+dest_files=["res://.godot/imported/BK_unarmed_hurt.png-4214dbf5ce0adc31e5df28e0aae4edaf.ctex"]
 
 [params]
 

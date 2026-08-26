@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b6kqb3l7f17xj"
-path="res://.godot/imported/BK_unarmed_mid_air.png-8f5e7514403631aac207b235e1bf142d.ctex"
+path="res://.godot/imported/BK_unarmed_mid_air.png-f4085b4011a907ee39d554db14009dcb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Black Knight/Black Knight/SpriteSheets_Separated/Mid_Air/BK_unarmed_mid_air.png"
-dest_files=["res://.godot/imported/BK_unarmed_mid_air.png-8f5e7514403631aac207b235e1bf142d.ctex"]
+source_file="res://assets/Black Knight/SpriteSheets_Separated/Mid_Air/BK_unarmed_mid_air.png"
+dest_files=["res://.godot/imported/BK_unarmed_mid_air.png-f4085b4011a907ee39d554db14009dcb.ctex"]
 
 [params]
 
