@@ -42,11 +42,11 @@ func update_facing(direction):
 	
 	# Set Facing and Horizontal Flip depending on input direction
 	if direction.x == -1:
-		$Sprite3D.flip_h = false
+		$Sprite3D.flip_h = true
 		facing = 2
 		print("move left")
 	elif direction.x == 1:
-		$Sprite3D.flip_h = true
+		$Sprite3D.flip_h = false
 		facing = 2
 		print("move right")
 	elif direction.y == 1:
