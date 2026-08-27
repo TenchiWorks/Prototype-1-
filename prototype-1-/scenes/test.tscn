@@ -1,0 +1,93 @@
+[gd_scene format=3 uid="uid://b6pthvp70mxbh"]
+
+[ext_resource type="Script" uid="uid://b577853l8wqgh" path="res://character_body_3d.gd" id="1_iyx0m"]
+[ext_resource type="Texture2D" uid="uid://cnrcd0mw0wylo" path="res://assets/Black Knight/SpriteSheets_Separated/Run/BK_unarmed_run.png" id="2_74lek"]
+[ext_resource type="Script" uid="uid://wv8u6p5pca74" path="res://spring_arm_3d.gd" id="3_j5jx5"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_l44ox"]
+
+[sub_resource type="Animation" id="Animation_lpvoh"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [11]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("../..:animation_frame")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+
+[sub_resource type="Animation" id="Animation_at5dv"]
+resource_name = "run"
+length = 11.0
+loop_mode = 1
+step = 1.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("../..:animation_frame")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 2, 0, 3, 4, 5, 6, 7, 8, 9, 10]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_jcd4p"]
+_data = {
+&"RESET": SubResource("Animation_lpvoh"),
+&"run": SubResource("Animation_at5dv")
+}
+
+[node name="TEST" type="CharacterBody3D" unique_id=1305941685]
+script = ExtResource("1_iyx0m")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1307383794]
+shape = SubResource("CapsuleShape3D_l44ox")
+
+[node name="Sprite3D" type="Sprite3D" parent="." unique_id=1015281864]
+texture = ExtResource("2_74lek")
+hframes = 4
+vframes = 3
+frame = 11
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1784581596]
+root_node = NodePath("../Sprite3D")
+libraries/ = SubResource("AnimationLibrary_jcd4p")
+autoplay = &"run"
+speed_scale = 3.19
+
+[node name="SpringArm3D" type="SpringArm3D" parent="." unique_id=35792910]
+script = ExtResource("3_j5jx5")
+
+[node name="Camera3D" type="Camera3D" parent="SpringArm3D" unique_id=628719188]

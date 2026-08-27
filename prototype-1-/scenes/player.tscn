@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://v6ar0k53g5nd"]
 
 [ext_resource type="Script" uid="uid://boikrbmfptypf" path="res://scripts/character_body_3d.gd" id="1_qhqgy"]
-[ext_resource type="Texture2D" uid="uid://dwiduunrf0saw" path="res://assets/Black Knight/SpriteSheets_Separated/Idle/BK_weapon_idle.png" id="2_dqkch"]
+[ext_resource type="Texture2D" uid="uid://cnrcd0mw0wylo" path="res://assets/Black Knight/SpriteSheets_Separated/Run/BK_unarmed_run.png" id="2_qhqgy"]
 [ext_resource type="Script" uid="uid://dt5x07pr22hmq" path="res://sprite_3d.gd" id="3_qlg0r"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_l44ox"]
@@ -35,7 +35,7 @@ tracks/1/keys = {
 
 [sub_resource type="Animation" id="Animation_fjrip"]
 resource_name = "run_armed"
-length = 1.4
+length = 7.0
 loop_mode = 1
 step = 0.1
 tracks/0/type = "value"
@@ -76,9 +76,9 @@ script = ExtResource("1_qhqgy")
 shape = SubResource("CapsuleShape3D_l44ox")
 
 [node name="Sprite3D" type="Sprite3D" parent="." unique_id=978152535]
-texture = ExtResource("2_dqkch")
-hframes = 3
-vframes = 2
+texture = ExtResource("2_qhqgy")
+hframes = 4
+vframes = 3
 script = ExtResource("3_qlg0r")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1979031612]

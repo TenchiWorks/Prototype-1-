@@ -2,7 +2,7 @@ extends CharacterBody3D
  
 @export var animation_frame = 0
 var facing = 0
-const FRAMES = 3
+const FRAMES = 11
 @export var SPEED = 5.0
 @export var JUMP_VELOCITY = 4.5
  

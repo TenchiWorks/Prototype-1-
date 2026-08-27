@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://cd6abbwa0ulxn"]
 
-[ext_resource type="PackedScene" uid="uid://v6ar0k53g5nd" path="res://scenes/player.tscn" id="1_uwrxv"]
+[ext_resource type="PackedScene" uid="uid://b6pthvp70mxbh" path="res://scenes/test.tscn" id="1_uwrxv"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_l44ox"]
 
@@ -19,8 +19,8 @@ ambient_light_energy = 0.1
 
 [node name="Game" type="Node3D" unique_id=785112290]
 
-[node name="player" parent="." unique_id=112300108 instance=ExtResource("1_uwrxv")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+[node name="TEST" parent="." unique_id=1305941685 instance=ExtResource("1_uwrxv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.6430159, 0)
 
 [node name="floor" type="StaticBody3D" parent="." unique_id=323551338]
 physics_material_override = SubResource("PhysicsMaterial_l44ox")
@@ -36,10 +36,12 @@ transform = Transform3D(0.81915206, -0.4055798, 0.4055798, 0, 0.70710677, 0.7071
 light_color = Color(0.6509804, 0.70980394, 0.8509804, 1)
 light_energy = 0.3
 
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=659320664]
+environment = SubResource("Environment_l44ox")
+
 [node name="Camera3D" type="Camera3D" parent="." unique_id=1460281774]
 transform = Transform3D(1, 0, 0, 0, 0.7071068, 0.7071068, 0, -0.7071068, 0.7071068, 0, 10, 12)
 current = true
-fov = 60.0
-
-[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=659320664]
-environment = SubResource("Environment_l44ox")
+fov = 20.1
+near = 0.005
+far = 78.7
